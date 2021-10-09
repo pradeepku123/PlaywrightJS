@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --headed --browser=chromium"
+    "test": "playwright test --headed --browser=chromium",
+    "test:debug": "playwright test --debug",
+    "test:codegen":"playwright codegen localhost:3000"
   },
   "keywords": [],
   "author": "",
